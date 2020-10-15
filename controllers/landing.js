@@ -1,5 +1,5 @@
 exports.get_landing = (req, res, next) => {
-    res.render('landing', {title: 'Express 2'})
+    res.render('landing', {title: 'Express'})
 }
 
 exports.submit_lead = (req, res, next) => {
